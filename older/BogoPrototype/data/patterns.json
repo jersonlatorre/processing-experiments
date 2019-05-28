@@ -1,0 +1,32 @@
+{
+	"patterns":
+	[
+		{
+			"id": 0,
+	    	"sequence":
+	    	[
+	    		{ "type": "floor", "size": 4 },
+	    		{ "type": "space", "size": 100 },
+	    		{ "type": "floor", "size": 5 }
+			]
+		},
+		{
+			"id": 1,
+	    	"sequence":
+	    	[
+	    		{ "type": "floor", "size": 4 },
+	    		{ "type": "space", "size": 100 },
+	    		{ "type": "floor", "size": 5 }
+			]
+		},
+		{
+			"id": 2,
+	    	"sequence":
+	    	[
+	    		{ "type": "floor", "size": 4 },
+	    		{ "type": "space", "size": 100 },
+	    		{ "type": "floor", "size": 5 }
+			]
+		}
+	]
+}

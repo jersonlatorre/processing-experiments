@@ -1,0 +1,125 @@
+float offset = 0;
+
+void setup()
+{
+    size(800, 800, P3D);
+    colorMode(HSB);
+    noStroke();
+    smooth(4);
+}
+
+void draw()
+{
+    background(0);
+
+    pushMatrix();
+    translate(width / 2, height / 2);
+    rotate(-PI / 4);
+
+    for (float i = -40; i <= 40; i += 0.5)
+    {
+        // if (abs(i) < 1.5) continue;
+        for (float j = -40; j <= 40; j += 0.5)
+        {
+            // if (abs(j) < 1.5) continue;
+            if (dist(i, j, 0, 0) > 40) continue;
+            float x = i / 5;
+            float y = j / 5;
+            int c = int((map(i - j, -80, 80, 0, 255) + offset + 0) % 255);
+            fill(c, 255, 255);
+            noStroke();
+            float r = map(dist(i, j, 0, 0), 40, 0, 0, 6);
+            ellipse(800 * u(x, y) + random(-r, r) / 2, 800 * v(x, y) + random(-r, r) / 2, r, r);
+        }
+    }
+
+    for (float i = -2; i <= 2; i += 0.1)
+    {
+        for (float j = -2; j <= 2; j += 0.1)
+        {
+            if (dist(i, j, 0, 0) > 2) continue;
+            float x = i / 5;
+            float y = j / 5;
+            int c = int((map(i - j, -40, 40, 0, 255) + offset + 0) % 255);
+            fill(c, 255, 255);
+            noStroke();
+            float r = map(dist(i, j, 0, 0), 40, 0, 0, 4);
+            ellipse(220 * u(x, y) + random(-r, r) / 5, 220 * v(x, y) + random(-r, r) / 5, r, r);
+        }
+    }
+    
+    noiseCircle(185);
+
+    popMatrix();
+
+    noStroke();
+    ellipse(width / 2, height / 2, 7, 7);
+
+    // noiseLine(60, 60, width - 60, 60);
+    // noiseLine(60, height - 60, width - 60, height - 60);
+    // noiseLine(width - 60, 60, width - 60, height - 60);
+    // noiseLine(60, 60, 60, height - 60);
+
+    
+    noStroke();
+    fill(255);
+    ellipse(90, 90, 15, 15);
+    ellipse(90, height - 90, 15, 15);
+    ellipse(width - 90, 90, 15, 15);
+    ellipse(width - 90, height - 90, 15, 15);
+
+z    offset += 255 / 200.0;
+    // if (offset < 255) saveFrame("frames/frame-###.png"); else noLoop();
+}
+
+void noiseLine(float x1, float y1, float x2, float y2)
+{
+    int N = 30;
+    PVector[] points = new PVector[N + 1];
+
+    for (int i = 0; i <= N; i++)
+    {
+        float x = x1 + (x2 - x1) * i / N + random(-3, 3) * sin(i * PI / N);
+        float y = y1 + (y2 - y1) * i / N + random(-3, 3) * sin(i * PI / N);
+        points[i] = new PVector(x, y);
+    }
+
+    for (int i = 0; i < N; i++)
+    {
+        stroke(255);
+        strokeWeight(1);
+        line(points[i].x, points[i].y, points[i + 1].x, points[i + 1].y);
+    }
+}
+
+void noiseCircle(float r)
+{
+    int N = 50;
+    PVector[] points = new PVector[N + 1];
+
+    for (int i = 0; i < N; i++)
+    {
+        float x = r * cos(i * 2 * PI / N) + random(-3, 3);
+        float y = r * sin(i * 2 * PI / N) + random(-3, 3);
+        points[i] = new PVector(x, y);
+    }
+
+    points[N] = points[0];
+
+    for (int i = 0; i < N; i++)
+    {
+        stroke(255);
+        strokeWeight(1);
+        line(points[i].x, points[i].y, 0, points[i + 1].x, points[i + 1].y, 0);
+    }
+}
+
+float u(float x, float y)
+{
+    return 2 * x / (1 + x * x + y * y);
+} 
+
+float v(float x, float y)
+{
+    return 2 * y / (1 + x * x + y * y);
+}
