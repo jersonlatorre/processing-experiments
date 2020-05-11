@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="100"
+   height="100"
+   viewBox="0 0 26.458332 26.458334"
+   version="1.1"
+   id="svg8"
+   sodipodi:docname="heart.svg"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   inkscape:export-filename="/media/jerson/6BEAE8BC05F208AD/Proyectos/processing-experiments/2020/dots_heart_beat/data/heart.png"
+   inkscape:export-xdpi="153"
+   inkscape:export-ydpi="153">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="400"
+     inkscape:cy="560"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1016"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     units="px" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-270.54165)">
+    <rect
+       style="opacity:0;vector-effect:none;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.38483644;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
+       id="rect816"
+       width="26.458334"
+       height="26.458334"
+       x="-1.110223e-16"
+       y="270.54166"
+       inkscape:export-xdpi="153"
+       inkscape:export-ydpi="153" />
+    <path
+       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.29077184;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 8.3158344,274.76512 c -2.3319494,-0.0638 -4.6708997,1.19196 -5.9217911,3.92546 -1.2999146,2.84064 -0.048351,6.0184 3.2828775,8.80443 2.618311,2.23957 5.4034262,4.26041 7.5521922,6.19565 2.579562,-2.33589 5.372471,-4.38096 7.552823,-6.19565 3.33121,-2.78603 4.582171,-5.96379 3.282246,-8.80443 -2.223805,-4.85954 -7.886416,-5.04907 -10.835069,-1.4558 -1.290035,-1.57207 -3.099538,-2.42005 -4.9132786,-2.46966 z"
+       id="path21"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="sccccccs"
+       inkscape:export-xdpi="153"
+       inkscape:export-ydpi="153" />
+  </g>
+</svg>

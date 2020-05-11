@@ -16,7 +16,7 @@ void draw()
             float x = i * .5;
             float y = j * .5;
             fill(map(i + j, -2, 2, 0, 255), 255, 255);
-            ellipse(width / 2 + 300 * u(x, y), height / 2 + 300 * v(x, y), 2, 2);
+            ellipse(width / 2 + 250 * u(x, y), height / 2 + 250 * v(x, y), 2, 2);
         }
     }
 

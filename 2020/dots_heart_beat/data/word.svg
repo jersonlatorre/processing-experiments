@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   height="50"
+   viewBox="-46 0 135 37.573213"
+   width="180"
+   version="1.1"
+   id="svg26"
+   sodipodi:docname="word.svg"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   inkscape:export-filename="/media/jerson/6BEAE8BC05F208AD/Proyectos/processing-experiments/2020/dots_heart_beat/data/word.png"
+   inkscape:export-xdpi="144"
+   inkscape:export-ydpi="144">
+  <metadata
+     id="metadata32">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs30" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1016"
+     id="namedview28"
+     showgrid="false"
+     showguides="false"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g884"
+     units="px">
+    <sodipodi:guide
+       position="-145.09938,508.83936"
+       orientation="-0.70710678,0.70710678"
+       id="guide923"
+       inkscape:locked="false" />
+  </sodipodi:namedview>
+  <g
+     id="g33"
+     transform="matrix(0.12732927,0,0,0.12732927,-36.990454,5.0268413)"
+     inkscape:export-xdpi="115.2"
+     inkscape:export-ydpi="115.2"
+     style="opacity:1">
+    <g
+       id="g884"
+       inkscape:export-xdpi="144"
+       inkscape:export-ydpi="144">
+      <rect
+         inkscape:export-ydpi="144"
+         inkscape:export-xdpi="144"
+         y="-39.479073"
+         x="-71.792839"
+         height="295.08701"
+         width="1062.3132"
+         id="rect879"
+         style="opacity:0;vector-effect:none;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:19.30844879;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke markers fill" />
+      <text
+         inkscape:export-ydpi="144"
+         inkscape:export-xdpi="144"
+         id="text846"
+         y="145.27347"
+         x="454.51407"
+         style="font-style:normal;font-weight:normal;font-size:113.52683258px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#262626;fill-opacity:1;stroke:none;stroke-width:14.75435028;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke markers fill;"
+         xml:space="preserve"><tspan
+           id="tspan854"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Eina01-Bold;-inkscape-font-specification:'Eina01-Bold Bold';text-align:center;letter-spacing:20.65609039px;text-anchor:middle;fill:#262626;fill-opacity:1;stroke:none;stroke-width:14.75435028;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke markers fill"
+           y="145.27347"
+           x="467.72781"
+           sodipodi:role="line">revolution</tspan></text>
+    </g>
+  </g>
+</svg>

@@ -12,7 +12,7 @@ class Circle
 		position.x = x;
 		position.y = y;
 		center = new PVector(width / 2, height / 2);
-		speed = 40 + random(5.0);
+		speed = 20 + random(2.0);
 	}
 
 	void draw()

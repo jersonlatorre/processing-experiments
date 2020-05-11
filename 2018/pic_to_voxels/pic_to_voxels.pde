@@ -21,7 +21,7 @@ final static int NSATURATION = 10;
 final static int NBRIGHTNESS = 11;
 
 PImage img;
-String name = "jerson"; //file name 
+String name = "maria"; //file name 
 String type = "jpg"; //file type
 
 float depth;
