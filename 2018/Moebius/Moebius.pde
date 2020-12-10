@@ -42,7 +42,7 @@ void draw()
     stroke(255);
     PVector p1 = points.get(i);
     stroke(map(i, 0, points.size(), 0, 255), 255, 255);
-    strokeWeight(30);
+    strokeWeight(3);
     point(p1.x, p1.y, p1.z);
   }
 

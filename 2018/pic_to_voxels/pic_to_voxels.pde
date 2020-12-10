@@ -21,14 +21,14 @@ final static int NSATURATION = 10;
 final static int NBRIGHTNESS = 11;
 
 PImage img;
-String name = "maria"; //file name 
+String name = "imagen"; //file name 
 String type = "jpg"; //file type
 
 float depth;
-int count = int(random(666));
+int count = int(random(100));
 
 // shape size.
-int vSize = 10; 
+int vSize = 4; 
 
 
 // fill & stroke types: BLACK, IMAGE, NONE.
@@ -73,11 +73,12 @@ float getChannel(color c) {
 
 void setup() {
   img = loadImage(name + "." + type);
-  size(800, 600, P3D);
-  println("christian attard, 2015 @ introwerks");
+  size(800, 800, P3D);
+  smooth(4);
 }
 
 void draw() {
+
   background(0);
   lights();
   for (int i =0; i<img.width; i+=vSize) {
@@ -113,12 +114,14 @@ void blocks(int x, int y) {
   case NONE:
     noStroke();
   }
-  translate(x+(vSize/2), y+(vSize/2), -20);
-  box(vSize, vSize, depth);
+  translate(0, 100, -400);
+  translate(x+(vSize/2), y+(vSize/2), -30 * noise(x, y, millis() / 20.0));
+  rotate(sin(millis() / 1000.0));
+  box(vSize * 0.6, vSize * 0.6, depth);
   popMatrix();
 }
 
 // export
 void keyPressed() {
-    save("result.png");
+  //    save("result.png");
 }
