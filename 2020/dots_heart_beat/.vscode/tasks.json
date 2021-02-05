@@ -1,18 +1,19 @@
 {
-	"version": "2.0.0",
-	"tasks": [
-		{
-			"label": "build",
-			"command": "processing-java",
-			"args": [
-				"--force",
-				"--sketch=${workspaceRoot}",
-				"--run"
-			],
-			"group": {
-				"kind": "build",
-				"isDefault": true
-			}
-		}
-	]
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Run Processing",
+      "type": "shell",
+      "command": "/opt/processing/processing-java",
+      "windows": {
+        "command": ".\\scripts\\test.cmd"
+      },
+      "args": [
+        "--force",
+        "--sketch=${workspaceRoot}",
+        "--run"
+      ],
+      "group": "build"
+    }
+  ]
 }
