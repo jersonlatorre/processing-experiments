@@ -6,7 +6,7 @@ class Dot
   float minDistance;
   public boolean isDie = false;
   
-  public Dot(float x, float y, float d, float m)
+  public Dot(float  x, float y, float d, float m)
   {
     this.x = x;
     this.y = y;
@@ -17,8 +17,8 @@ class Dot
   public void update()
   {
     if (isDie) return;
-    x += random(-d, d);
-    y += random(-d, d);
+    x += random( - d, d);
+    y += random( - d, d);
   }
   
   public void draw()
