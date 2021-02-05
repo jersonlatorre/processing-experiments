@@ -60,15 +60,17 @@ void draw()
 
 	// saveFrame("frames/frame-####.png");
 	 fx.render()
-    // .noise(.2, .1)
-    // .pixelate(200)
+    //.noise(.2, .1)
+     .pixelate(800)
     // .sobel()
     // .toon()
     // .chromaticAberration()
-    .rgbSplit(20)
+     .rgbSplit(20)
     // .bloom(0.9, 10, 10)
     // .vignette(.5, .2)
     .compose();
+    
+   filter(POSTERIZE, 2);
 }
 
 void drawBackground()
