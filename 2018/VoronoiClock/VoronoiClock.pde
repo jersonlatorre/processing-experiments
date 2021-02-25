@@ -1,3 +1,6 @@
+// http://leebyron.com/mesh/mesh-0002.zip
+// y copiar el contenido en la carpeta sketchbook
+
 import megamu.mesh.*;
 
 int N = 12;
@@ -28,7 +31,7 @@ void setup()
 
 void keyPressed()
 {
-  save("images/hola" + random(1000) + ".png");
+  // save("images/hola" + random(1000) + ".png");
 }
 
 void draw()

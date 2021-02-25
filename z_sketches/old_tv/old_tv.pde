@@ -24,7 +24,7 @@ void draw()
       if (plug.pixels[i + j * int(num_tiles)] == -1)
       {
         float d = dist(i * num_tiles, j * num_tiles, 0, 0) / v;
-        int r = abs(int(d - frameCount / 25.0)) % 3;
+        int r = abs(int(d - frameCount / 20.0)) % 5;
         
         fill(colors[r]);
         stroke(0, 40);

@@ -98,7 +98,7 @@ void draw()
   strokeWeight(5);
   ellipse(width / 2, height / 2, width / 2 + 20, height / 2 + 20);
 
-  saveFrame("frames/frame-###.png");
+  // saveFrame("frames/frame-###.png");
 
   if (frameCount == 450) exit();
 }
