@@ -51,9 +51,9 @@ void setup() {
   mask = createGraphics(width, height);
   
   
-  p1 = loadImage("p1.png");
-  p2 = loadImage("p2.png");
-  p3 = loadImage("p3.png");
+  p1 = loadImage("a/p1.png");
+  p2 = loadImage("a/p2.png");
+  p3 = loadImage("a/p3.png");
   
   canvas.ellipseMode(CENTER);
   canvas.imageMode(CENTER);
